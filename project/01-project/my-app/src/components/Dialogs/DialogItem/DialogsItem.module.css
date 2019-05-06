@@ -1,0 +1,15 @@
+.dialogItem {
+    border: 1px solid darkolivegreen;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.dialogItem img {
+    width: 50px;
+    margin-right: 5px;
+}
+.dialogItem.active {
+    color: red;
+}

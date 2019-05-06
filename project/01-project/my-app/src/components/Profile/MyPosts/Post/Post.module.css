@@ -1,0 +1,11 @@
+
+.item {
+    color: red;
+}
+.item img {
+    width: 50px;
+}
+.like {
+    font-size: 12px;
+    color: black;
+}

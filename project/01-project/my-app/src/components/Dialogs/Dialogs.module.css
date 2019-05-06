@@ -1,0 +1,16 @@
+.dialogWrap {
+    background-color: darkgrey;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogs {
+    background-color: aliceblue;
+}
+.Messages {
+    width: 70%;
+    padding-left: 11px;
+}
+.messegesItem {
+
+}
