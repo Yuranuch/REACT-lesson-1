@@ -2,12 +2,13 @@ import React from 'react';
 import classes from './MyPosts.module.css';
 import Post from './Post/Post';
 import NewPost from './NewPost/NewPost';
-import {addPost, AddPostactionCreator, UpdateNewPostTextactionCreator} from "../../../redux/State";
+import {addPost, AddPostactionCreator, UpdateNewPostTextactionCreator} from "../../../redux/profile-reducer";
 
 
 
 
 const MyPosts = (props) => {
+
     const postsElement = props.postsData.map((p) => {
         return <Post massege={p.massege} likesCount={p.likesCount} id={p.id}/>
     });
