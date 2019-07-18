@@ -26,7 +26,6 @@ let store = {
                 {id: 4, name: 'Kirill'},
                 {id: 5, name: 'Misha'},
             ],
-
             messageData: [
                 {id : 6 , message: 'Hi, my Name is Yura'},
                 {id : 6 , message: 'Hello'},
