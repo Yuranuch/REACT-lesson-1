@@ -7,7 +7,7 @@ import {SendMessageCreator, UpdateNewMessageBodyCreator} from "../../redux/dialo
 import Dialogs from "./Dialogs";
 import {connect} from "react-redux";
 
-
+/*
 const DialogsContainer = (props) => {
     let state = props.store.getState();
     let onSendMessageClick = () => {
@@ -25,7 +25,7 @@ const DialogsContainer = (props) => {
        />
     )
 };
-export default DialogsContainer;
+export default DialogsContainer;*/
 
 /*const mapStateToProps = (state) => {
     return {
