@@ -1,9 +1,8 @@
 import React from 'react';
 import classes from './Dialogs.module.css';
-import {NavLink} from "react-router-dom";
 import DialogItem from "./DialogItem/DialogItem";
 import MessageItem from "./MessageItem/MessageItem";
-import {SendMessageCreator, UpdateNewMessageBodyCreator} from "../../redux/dialog-reducer";
+
 
 
 
